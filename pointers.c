@@ -82,5 +82,5 @@ int main() {
         printf("B%d: %hhu\n", j, *(vpc + j));
     }
 
-    //Adding 1 to the nth bit increases the number by 256^n, or 2^(8*n)
+    //Adding 1 to the nth byte increases the number by 256^n, or 2^(8*n)
 }
